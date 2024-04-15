@@ -51,6 +51,12 @@ public class FilmDao {
 
 	}
 
+	public void deleteFilm(int id) {
+		transaction.begin();
+		manager.remove(manager.find(Film.class, id));
+		transaction.commit();
+	}
+
 
 
 }

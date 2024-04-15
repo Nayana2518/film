@@ -41,7 +41,7 @@
 				<th><%=film.getGenre()%></th>
 				<th><%=film.getRating()%></th>
 				<th><button>Edit</button></th>
-				<th><button>Delete</button></th>
+				<th><a href="delete-film?id=<%=film.getId()%>"><button>Delete</button></a></th>
 			</tr>
 			<%
 			}
