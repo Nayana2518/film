@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/insert.css">
+</head>
+
+<body style=" background-image: url(css/8);background-repeat: no-repeat;background-size: cover;">
+	
+		<h1>NEW FILM</h1>
+
+	<form action="insert-film" method="post" enctype="multipart/form-data">
+		<div class="container">
+			<div class="contain">
+			
+				<label for="">FILM NAME:</label>
+				<input type="text" name="name" placeholder="FILM NAME" required><br><br><br>
+
+				<label for="">FILM LANGUAGE:</label>
+				<select name="language">
+					<option disabled selected> SELECT A LANGUAGE</option>
+					<option>KANNADA FILM</option>
+					<option>HINDI FILM</option>
+					<option>ENGLISH FILM</option>
+					<option>TELUGU FILM</option>
+				</select> <br><br><br>
+
+				<label for="">FILM RATING:</label>
+				<input type="text" name="rating" placeholder="FILM RATING" required><br><br><br>
+
+				<label for="">FILM IMAGE:</label>
+				<input type="file" name="picture" placeholder="FILM IMAGE" required> <br><br><br>
+
+				<label for=""> FILM GENRE:</label>
+				<select name="genre">
+					<option disabled selected>SELECT A GENRE</option>
+					<option>HORROR FILM</option>
+					<option>ROMANTIC FILM</option>
+					<option>SUSPENCE FILM</option>
+					<option>COMEDY FILM</option>
+					<option>ACTION FILM</option>
+				</select><br><br><br>
+
+				<a><button>NEW FILM</button></a>
+			</div>
+		</div>
+	</form>
+
+
+</body>
+
+
+</html>

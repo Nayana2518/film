@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+<style>
+
+.main{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+form{
+    font-weight: bolder;
+    width: 350px;
+    margin: 25vh;
+    font-size: 40px;
+}
+
+label{
+    color: white;
+}
+
+select{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: radial-gradient(rgb(162, 236, 162), rgb(236, 236, 157), rgb(177, 177, 234));
+    height: 55px;
+    width: 25vw;
+    border-radius: 10px;
+    margin-left: -10px;
+    margin-top: 8px;
+    cursor: pointer;
+    
+}
+
+</style>
+
+<body style="background-image: url(css/8);background-repeat: no-repeat;background-size: cover;">
+	<div align="center">
+		<form action="fetch-film-language" method="post">
+		<label>Enter Language:</label>
+			<select name="language">
+					<option disabled selected> SELECT A LANGUAGE</option>
+					<option>KANNADA FILM</option>
+					<option>HINDI FILM</option>
+					<option>ENGLISH FILM</option>
+					<option>TELUGU FILM</option>
+				</select> <br><br><br>
+			
+			<button>SEARCH</button>
+		</form>
+	</div>
+</body>
+</html>
